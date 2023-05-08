@@ -5,5 +5,9 @@ const person1 = {
 };
 
 console.log(typeof person1);
-console.log(person1);
+console.log(
+  person1.name,
+  person1.age,
+  person1.married
+  );
 
