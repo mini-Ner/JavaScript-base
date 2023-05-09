@@ -5,11 +5,15 @@
   <title>if문</title>
 </head>
 <script>
-   var wow = prompt("당신의 노력을 1~1000사이로 적어주세요","0");
-   if(wow >= 100) {
-    document.write("힘들지만 힘내보자구요 ^^b <br><br>")
-   }
-   document.write("======== THE END ========")
+   let wow = prompt("당신의 노력을 1~150사이로 적어주세요","0");
+
+    if(wow >= 50) {
+    document.write("많이 힘들죠? 취직을 위해 더 힘내죠! ^^b <br><br>")
+   }if(wow >= 100) {
+    document.write("와! 많이 노력하셨네요!! 취업 가즈앙!<br><br>")
+   }if(wow >= 150) 
+   {document.write("==THE END 취업 가자 !==<br><br>")}
+   document.write("the end")
 </script>
 <body>
 </body>
